@@ -1,0 +1,8 @@
+from,to,weight,relationship,time
+DB,DBP,,,
+DBP,KUH,,,
+DBP,BRU,,,
+DBP,VAL,,,
+WOS,BUR,,,
+BRU,SPD,,,
+BUR,DBP,,,

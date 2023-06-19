@@ -1,0 +1,11 @@
+id,name,sex,type,branche,party
+DB,Deutsche Bahn AG,,2,2,
+DBP,DBProjekt GmbH Stuttgart 21,,2,2,
+WOS,Wolfgang Schuster,1,1,1,CDU
+KUH,Norbert Kuhnle,1,1,2,
+BRU,Hansmartin Bruckmann,1,1,1,SPD
+VAL,Dirk Vallée,1,1,2,
+BUR,Burson Marsteller,,2,3,
+SPD,Sozialdemokratische Partei Deutschlands,,2,1,
+CDU,Christlich-Demokratische Union,,2,1,
+B90,Bündnis 90/ Die Grünen,,2,1,
