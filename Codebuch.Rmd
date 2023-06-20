@@ -1,0 +1,62 @@
+---
+title: "Codebuch"
+author: "Louis Göllner"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+tinytex::install_tinytex(force = TRUE)
+```
+
+------------------------------------------------------------------------
+
+# Codebuch Stand 2023-06
+
+erstellt von Louis Göllner (lg092\@hdm-stuttgart.de)
+
+## Datenerhebung
+
+Das Netzwerk ist ein ***ungerichtetes two-mode Netzwerk*****.**
+
+Die gesammelten Daten stammen aus der Recherche vom 19.06. unter anderem unter Berufung auf LobbyControl.
+
+**Umgang mit fehlgenden Werten:** Fehlende Werte werden nicht erfasst.
+
+# EDGE-Attribute
+
+**id**\
+(eindeutige Codierung des Knoten)\
+jede ID entspricht genau einem Knoten
+
+**from** initiierender Knoten [*(Richtung irrelevant, da ungerichtet)*]{.underline}
+
+**to** erhaltender Knoten [*(Richtung irrelevant, da ungerichtet)*]{.underline}
+
+# NODE-Attribute
+
+**id**\
+Identische ID wie aus der edgelist zur Identifikation der Knoten.
+
+**name**\
+numerische ID
+
+**sex**\
+1 = weiblich\
+2 = männlich
+
+**type**\
+1 = natürliche Person\
+2 = Organisation (Firma, Betrieb etc.)
+
+**branche\
+**In welcher Branche sind die Knoten überwiegend tätig (nur eine Angabe pro Knoten)\
+1 = Politik\
+2 = Infrastruktur\
+3 = PR/ Marketing
+
+**party\
+**Nur angegeben, wenn bei natürlichen Personen bekannt; numerisch
